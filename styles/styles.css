@@ -1,15 +1,65 @@
-.panel img-rounded{
-  max-width:100% ;
-  object-fit: contain;
+
+a{
+  text-decoration: none;
+  color: #9B9B9B;
+}
+
+a:hover{
+ color: white;
+}
+
+body{
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  background-color: #EBE5E5;
+
+}
+
+
+.panel-empty{
+  background-color: #EBE5E5;
+
+}
+
+.panel-heading{
+  background-color: white;
+  border: none;
+  text-align: center;
+  font-weight: bold;
+
+  
+}
+
+.panel-footer {
+  background-color: #EBE5E5;
+  border: none;
+} 
+
+ul {
+  list-style-type: none;
+  padding-left:0;
+  margin-left:0;
+  text-align: center;
+}
+
+hr{
   width: 100%;
 }
+.jumbotron{
+  background-image: url("../funcy-assets/banner.png");
+  min-height: 500px;
+}
+
+
+h1{
+  color: black;
+  text-align: center;
+}
+
 
 footer{
   padding-top: 15px;
   background-color: black;
   color: rgb(106, 108, 117);
-}
-
-.background{
-  background-image: url("../funcy-assets/banner.png");
 }
