@@ -1,0 +1,15 @@
+.panel img-rounded{
+  max-width:100% ;
+  object-fit: contain;
+  width: 100%;
+}
+
+footer{
+  padding-top: 15px;
+  background-color: black;
+  color: rgb(106, 108, 117);
+}
+
+.background{
+  background-image: url("../funcy-assets/banner.png");
+}
