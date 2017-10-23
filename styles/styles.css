@@ -48,7 +48,9 @@ hr{
 }
 .jumbotron{
   background-image: url("../funcy-assets/banner.png");
-  min-height: 500px;
+  margin-bottom: 0px;
+  background-size: cover;
+  min-height: 400px;
 }
 
 
