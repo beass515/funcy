@@ -11,30 +11,47 @@ a:hover{
 body{
   color: black;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 12px;
+  font-size: 13px;
   background-color: #EBE5E5;
-
 }
 
-
 .panel-empty{
-  background-color: #EBE5E5;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
 
+}
+.panel{
+  border: none;
+  box-shadow: none;
+}
+.panel-default{
+  border: none;
+  box-shadow: none;
 }
 
 .panel-heading{
-  background-color: white;
-  border: none;
   text-align: center;
   font-weight: bold;
+  border: none;
+  box-shadow: none;
+  padding: 15px 0 0 0;
+ 
+}
 
-  
+.panel-default>.panel-heading {
+  color: #333;
+  background-color: transparent;
+  border-color: none;
 }
 
 .panel-footer {
   background-color: #EBE5E5;
+  box-shadow: none;
   border: none;
 } 
+
+
 
 ul {
   list-style-type: none;
@@ -49,7 +66,7 @@ hr{
 .jumbotron{
   background-image: url("../funcy-assets/banner.png");
   margin-bottom: 0px;
-  background-size: cover;
+  background-repeat:no-repeat;
   min-height: 400px;
 }
 
@@ -87,3 +104,18 @@ footer{
 .footerbrand{
   font-size: 14px;
 }
+
+.colContact{
+  margin-bottom: 10px;
+
+}
+
+h3{
+  margin: 0px 0px 10px 0px;
+}
+
+.subject{
+  margin: 5px 0 5px 0;
+  font-weight: bold;
+}
+
