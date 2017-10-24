@@ -8,6 +8,10 @@ a:hover{
  color: white;
 }
 
+.navbar {
+  margin-bottom: 0px;
+}
+
 body{
   color: black;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -63,18 +67,15 @@ ul {
 hr{
   width: 100%;
 }
+
 .jumbotron{
   background-image: url("../funcy-assets/banner.png");
-  margin-bottom: 0px;
-  background-repeat:no-repeat;
-  min-height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 
-
-h1{
-  color: black;
-  text-align: center;
-}
 
 .google-maps {
   position: relative;
