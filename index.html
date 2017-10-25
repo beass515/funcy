@@ -8,6 +8,7 @@
   <title>Funcy</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/navigationStyles.css">
 </head>
 
 <body>
@@ -61,14 +62,14 @@
     </nav>
   </header>
   <main>
-    <div class="container-fluid">
+    <section id="banner" class="container-fluid">
       <div class="row">
         <div class="jumbotron text-center banner">
           <h1>Only Cool things!</h1>
         </div>
       </div>
-    </div>
-    <div class="container">
+    </section>
+    <section id="shop" class="container">
       <div class="row">
         <div class="col-lg-4 col-sm-6">
           <div class="panel panel-empty">
@@ -101,9 +102,8 @@
           </div>
         </div>
       </div>
-    </div>
-    <section id="plans">
-      <div class="container">
+    </section>
+    <section id="plans" class="container">
         <div class="row">
           <div class="col-lg-4 col-sm-6">
             <div class="panel panel-default">
@@ -182,62 +182,14 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="container google-maps iframe">
+    </section>
+      <section id="where" class="container google-maps iframe">
         <div class="row">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.3422933337342!2d-3.688151884401117!3d40.42341887936436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42289763019f41%3A0x723a4efa91eb2996!2sCalle+de+Jorge+Juan%2C+14%2C+28001+Madrid!5e0!3m2!1ses!2ses!4v1507711994080"
             frameborder="0" allowfullscreen width="100%"></iframe>
         </div>
-      </div>
-
-
-      <!--<div class="container">
- <div class="row">
-    <form  name="contactform" action="funcyServer.php" type="PUT" class="col-xs-12 col-lg-6 col-ls-offset-3">
-        <p>
-          <h3>Contact</h3>
-        </p>
-        <div id="colContact">
-          <input type="text" id="name" name="name" placeholder=" Your name" required>
-        </div>
-        <div>
-          <input type="email" id="email" name="email" placeholder=" Your email" required>
-        </div>
-        <div>
-          <input type="checkbox" name="checkbox-input" value="1">
-          <label for="checkbox">Suscribe to newsletter</label>
-        </div>
-        <div id="colContact">
-          <p>Subject</p>
-        <div>
-          <input type="radio" name="radio-input" value="1" checked>
-          <label for="radio">Payment</label>
-        </div>
-        <div>
-          <input type="radio" name="radio-input" value="2">
-          <label for="radio">Shipment</label>
-        </div>
-        <div>
-          <input type="radio" name="radio-input" value="1">
-          <label for="radio">Product</label>
-        </div>
-        <div id="colContact">
-          <input type="radio" name="radio-input" value="2">
-          <label for="radio">Other </label>
-        </div>
-        <div>
-            <textarea id="coments" name="comments" placeholder="What can I do for you"
-            cols="30px" rows="7px"></textarea>
-        </div>
-        <div>
-          <button type="submit">Send!</button>
-        </div>
-      </form>
-
-  </div>
-</div> -->
-
-      <div class="container">
+      </section>
+      <section id="contact" class="container">
         <form name="contactform" action="funcyServer.php" type="PUT">
           <div class="row form">
             <div class="col-lg-4 col-sm-6">
@@ -280,11 +232,11 @@
 
           </div>
         </form>
-      </div>
+      </section>
 
   </main>
   <footer>
-    <div class="container">
+    <section id="rssAndInfo" class="container">
       <div class="row">
         <div class="col-lg-4 col-sm-6">
           <span class="glyphicon glyphicon-ice-lolly-tasted footerbrand">FUNCY</span>
@@ -316,7 +268,7 @@
           </ul>
         </div>
       </div>
-    </div>
+    </section>
     </div>
   </footer>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
