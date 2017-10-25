@@ -1,17 +1,4 @@
 
-a{
-  text-decoration: none;
-  color: #9B9B9B;
-}
-
-a:hover{
- color: white;
-}
-
-.navbar {
-  margin-bottom: 0px;
-}
-
 body{
   color: black;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
